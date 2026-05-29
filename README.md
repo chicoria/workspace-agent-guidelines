@@ -15,9 +15,11 @@ O `AGENTS.md` local deve manter regras especificas do projeto. Quando houver con
 ## Documentos
 
 - `guidelines/change-workflow.md`: workflow padrao para qualquer mudanca.
-- `guidelines/review-agents.md`: papeis e checklists para agentes revisores.
+- `guidelines/review-agents.md`: papeis e checklists para agentes revisores (Planning Reviewer + Code Quality Reviewer).
+- `guidelines/slice-validation.md`: papel Slice Validator, maquina de estados estrita e regras de bloqueio por slice.
 - `templates/repo-AGENTS.stub.md`: bloco reutilizavel para ativar a guideline em um repo.
-- `templates/slice-review-block.md`: blocos de revisao para arquivos de slice/plano.
+- `templates/slice-review-block.md`: blocos de revisao (Planning + Code Quality) com campos Status e Evidencia.
+- `templates/slice-status-ledger.md`: template do ledger de status (source of truth de progresso por plano).
 
 ## Atualizacao
 
