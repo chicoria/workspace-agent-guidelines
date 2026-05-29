@@ -17,6 +17,7 @@ O `AGENTS.md` local deve manter regras especificas do projeto. Quando houver con
 - `guidelines/change-workflow.md`: workflow padrao para qualquer mudanca.
 - `guidelines/review-agents.md`: papeis e checklists para agentes revisores (Planning Reviewer + Code Quality Reviewer).
 - `guidelines/slice-validation.md`: papel Slice Validator, maquina de estados estrita e regras de bloqueio por slice.
+- `guidelines/gtm-api-guardrails.md`: guardrails operacionais para acesso e configuracao via Tag Manager API (GTM Web e sGTM) — ler sempre `versions:live`, nunca o workspace, antes de auditar producao.
 - `templates/repo-AGENTS.stub.md`: bloco reutilizavel para ativar a guideline em um repo.
 - `templates/slice-review-block.md`: blocos de revisao (Planning + Code Quality) com campos Status e Evidencia.
 - `templates/slice-status-ledger.md`: template do ledger de status (source of truth de progresso por plano).

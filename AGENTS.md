@@ -16,6 +16,14 @@ Para mudancas substanciais nestas guidelines, aplique o proprio fluxo:
 3. revise clareza, aplicabilidade e conflitos com regras locais;
 4. registre qualquer decisao de tradeoff no resumo final.
 
+## GTM Web e sGTM
+
+Qualquer agente que aceda ou configure containers GTM via Tag Manager API deve ler primeiro:
+
+`/Users/chicoria/git/workspace-agent-guidelines/guidelines/gtm-api-guardrails.md`
+
+Regra critica: **usar sempre `versions:live` para auditar producao — nunca o endpoint de workspace**. O workspace e rascunho e pode estar vazio mesmo com configuracao completa em producao (gotcha confirmado no container sGTM `241313282`).
+
 ## Governanca de Slices
 
 Este repo define a camada de validacao por slice usada ao longo da implementacao de qualquer plano multi-slice no workspace:
